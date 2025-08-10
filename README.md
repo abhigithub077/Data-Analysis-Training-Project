@@ -28,6 +28,7 @@ Used DELETE FROM ... WHERE queries to remove records containing empty, or unknow
 
 ![image_alt](https://github.com/abhigithub077/Data-Analysis-Training-Project/blob/334aeccf759b916dfdb059d69d404ab89c0f8f83/Data_cleaning_1.png)
 ![image_alt](https://github.com/abhigithub077/Data-Analysis-Training-Project/blob/334aeccf759b916dfdb059d69d404ab89c0f8f83/Data_cleaning_2.png)
+
 Ensured data consistency across order type, payment mode, and product names.
 
 ### Power BI (Power Query Editor)
@@ -58,15 +59,19 @@ Retrieved high-value insights using aggregate queries:
 
 Products generating the highest revenue:
 ![image_alt](https://github.com/abhigithub077/Data-Analysis-Training-Project/blob/334aeccf759b916dfdb059d69d404ab89c0f8f83/Total_revenue_by_item_code.png)
+
 ![image_alt](https://github.com/abhigithub077/Data-Analysis-Training-Project/blob/334aeccf759b916dfdb059d69d404ab89c0f8f83/Total_revenue_by_item_output.png)
 Revenue split between In-Store and Takeaway orders:
 ![image_alt](https://github.com/abhigithub077/Data-Analysis-Training-Project/blob/334aeccf759b916dfdb059d69d404ab89c0f8f83/Total_revenue_by_order_type_code.png)
+
 ![image_alt](https://github.com/abhigithub077/Data-Analysis-Training-Project/blob/334aeccf759b916dfdb059d69d404ab89c0f8f83/Total_revenue_by_order_type_output.png)
 Revenue generated from each payment mode (Cash, Credit Card, Digital Wallet):
 ![image_alt](https://github.com/abhigithub077/Data-Analysis-Training-Project/blob/334aeccf759b916dfdb059d69d404ab89c0f8f83/Total_revenue_payment_method_code.png)
+
 ![image_alt](https://github.com/abhigithub077/Data-Analysis-Training-Project/blob/334aeccf759b916dfdb059d69d404ab89c0f8f83/Total_revenue_payment_method_output.png)
 Total units sold for each product:
 ![image_alt](https://github.com/abhigithub077/Data-Analysis-Training-Project/blob/334aeccf759b916dfdb059d69d404ab89c0f8f83/Total_items_sold_code.png)
+
 ![image_alt](https://github.com/abhigithub077/Data-Analysis-Training-Project/blob/334aeccf759b916dfdb059d69d404ab89c0f8f83/Total_items_sold_output.png)
 
 ## 3. Data Visualization
