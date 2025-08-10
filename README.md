@@ -130,6 +130,6 @@ Observed that In-Store orders generated more revenue than Takeaway in certain mo
 The project delivers a holistic sales performance analysis, combining spreadsheet analytics, database querying, and business intelligence dashboards. 
 These insights can be leveraged to:
 
--> Optimize product inventory.
--> Target marketing campaigns for high-demand items.
--> Adjust pricing strategies for underperforming categories.
+### -> Optimize product inventory.
+### -> Target marketing campaigns for high-demand items.
+### -> Adjust pricing strategies for underperforming categories.
