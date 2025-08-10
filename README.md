@@ -82,10 +82,12 @@ Total units sold for each product:
 ![image_alt](https://github.com/abhigithub077/Data-Analysis-Training-Project/blob/334aeccf759b916dfdb059d69d404ab89c0f8f83/Total_items_sold_output.png)
 
 ## 3. Data Visualization
-Excel Dashboard
+### Excel Dashboard
 Combined Pivot Charts, Pie charts and Slicers into an interactive dashboard.
 
 Presented raw data, cleaned data, and the final dashboard for comparison.
+
+![image_alt](https://github.com/abhigithub077/Data-Analysis-Training-Project/blob/7557069344f5017981ab72d67f2b8c6868bf9cb5/BrewBite_Excel_Dashboard.png)
 
 ### Power BI Dashboard
 Designed an interactive dashboard with:
@@ -101,6 +103,12 @@ Bar Chart – Monthly product-wise sales trends.
 KPI Cards – Total items sold, total revenue, and average order value.
 
 Enhanced the user experience with buttons, images, and clean visual design principles.
+
+![image_alt](https://github.com/abhigithub077/Data-Analysis-Training-Project/blob/7557069344f5017981ab72d67f2b8c6868bf9cb5/Brew_Bite_PBI_Dashboard_1.png)
+
+![image_alt](https://github.com/abhigithub077/Data-Analysis-Training-Project/blob/7557069344f5017981ab72d67f2b8c6868bf9cb5/Brew_Bite_PBI_Dashboard_2.png)
+
+![image_alt](https://github.com/abhigithub077/Data-Analysis-Training-Project/blob/7557069344f5017981ab72d67f2b8c6868bf9cb5/Brew_Bite_PBI_Dashboard_3.png)
 
 ### Key Insights
 Identified top-selling products and low-performing items.
