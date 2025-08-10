@@ -127,7 +127,7 @@ Observed that In-Store orders generated more revenue than Takeaway in certain mo
 ### Power BI – Data modelling, DAX calculations, interactive dashboards.
 
 ## Outcome
-The project delivers a holistic sales performance analysis, combining spreadsheet analytics, database querying, and business intelligence dashboards. 
+### The project delivers a holistic sales performance analysis, combining spreadsheet analytics, database querying, and business intelligence dashboards. 
 These insights can be leveraged to:
 
 ### -> Optimize product inventory.
