@@ -2,9 +2,17 @@
 # "A Comprehensive Data-Driven Analysis of Sales Performance using Excel, Power BI, and SQL"
 
 ## Project Overview:
-This project presents an end-to-end analysis of sales data using Excel, SQL, and Power BI. The aim was to clean, process, and analyze the data to uncover actionable insights on sales performance, customer preferences, and revenue trends.
+This project presents an end-to-end analysis of "BrewBite" a cafe sales data using Excel, SQL, and Power BI. The aim was to clean, process, and analyze the data to uncover actionable insights on sales performance, customer preferences, and revenue trends and most importantly to solve the problem statements given by the cafe.
 
 By leveraging multiple tools, the project demonstrates the full data analytics pipeline — from raw data preprocessing to advanced interactive dashboards — enabling better decision-making for café operations and marketing strategies.
+
+## Problem Statements:
+### PS.1 - A Growing Cafe Business "BrewBite" needs an effective data tracking system where they can keep track of all the orders and handle ERRORS and UNKNOWN transactions.
+### PS.2 - They are finding it difficult to track the total number of sales in each product.
+### PS.3 - To evade over taxation, they need to segregate the modes of payment as Cash or Digital Payment.
+### PS.4 - In order to manage the extra expenses for takeaway(parcel) charges they need to differentiate among their orders whether if it's an "In-Store" or a "Takeaway" order.
+### PS.5 - To recognize monthly product wise sales in order to differentiate and understand the demand of each product.
+### PS.6 - For them to stock up on particular raw materials, they need to find out the total number of items sold.
 
 ## Project Workflow
 ## 1. Data Cleaning & Preparation
@@ -16,8 +24,10 @@ Corrected data types for date and numeric fields.
 Added a calculated column Total Spent = (Price per Item × Quantity) to compute total revenue per order.
 
 ### SQL
-Used DELETE FROM ... WHERE queries to remove records containing empty, or unknown values.
+Used DELETE FROM ... WHERE queries to remove records containing empty, or unknown values:
 
+![image_alt](https://github.com/abhigithub077/Data-Analysis-Training-Project/blob/334aeccf759b916dfdb059d69d404ab89c0f8f83/Data_cleaning_1.png)
+![image_alt](https://github.com/abhigithub077/Data-Analysis-Training-Project/blob/334aeccf759b916dfdb059d69d404ab89c0f8f83/Data_cleaning_2.png)
 Ensured data consistency across order type, payment mode, and product names.
 
 ### Power BI (Power Query Editor)
@@ -46,13 +56,18 @@ Total number of items sold.
 ### SQL
 Retrieved high-value insights using aggregate queries:
 
-Products generating the highest revenue.
-
-Revenue split between In-Store and Takeaway orders.
-
-Revenue generated from each payment mode (Cash, Credit Card, Digital Wallet).
-
-Total units sold for each product.
+Products generating the highest revenue:
+![image_alt](https://github.com/abhigithub077/Data-Analysis-Training-Project/blob/334aeccf759b916dfdb059d69d404ab89c0f8f83/Total_revenue_by_item_code.png)
+![image_alt](https://github.com/abhigithub077/Data-Analysis-Training-Project/blob/334aeccf759b916dfdb059d69d404ab89c0f8f83/Total_revenue_by_item_output.png)
+Revenue split between In-Store and Takeaway orders:
+![image_alt](https://github.com/abhigithub077/Data-Analysis-Training-Project/blob/334aeccf759b916dfdb059d69d404ab89c0f8f83/Total_revenue_by_order_type_code.png)
+![image_alt](https://github.com/abhigithub077/Data-Analysis-Training-Project/blob/334aeccf759b916dfdb059d69d404ab89c0f8f83/Total_revenue_by_order_type_output.png)
+Revenue generated from each payment mode (Cash, Credit Card, Digital Wallet):
+![image_alt](https://github.com/abhigithub077/Data-Analysis-Training-Project/blob/334aeccf759b916dfdb059d69d404ab89c0f8f83/Total_revenue_payment_method_code.png)
+![image_alt](https://github.com/abhigithub077/Data-Analysis-Training-Project/blob/334aeccf759b916dfdb059d69d404ab89c0f8f83/Total_revenue_payment_method_output.png)
+Total units sold for each product:
+![image_alt](https://github.com/abhigithub077/Data-Analysis-Training-Project/blob/334aeccf759b916dfdb059d69d404ab89c0f8f83/Total_items_sold_code.png)
+![image_alt](https://github.com/abhigithub077/Data-Analysis-Training-Project/blob/334aeccf759b916dfdb059d69d404ab89c0f8f83/Total_items_sold_output.png)
 
 ## 3. Data Visualization
 Excel Dashboard
