@@ -7,23 +7,23 @@ This project presents an end-to-end analysis of "BrewBite" a cafe sales data usi
 By leveraging multiple tools, the project demonstrates the full data analytics pipeline — from raw data preprocessing to advanced interactive dashboards — enabling better decision-making for café operations and marketing strategies.
 
 ## Problem Statements:
-### PS.1 - A Growing Cafe Business "BrewBite" needs an effective data tracking system where they can keep track of all the orders and handle ERRORS and UNKNOWN transactions.
-### PS.2 - They are finding it difficult to track the total number of sales in each product.
-### PS.3 - To evade over taxation, they need to segregate the modes of payment as Cash or Digital Payment.
-### PS.4 - In order to manage the extra expenses for takeaway(parcel) charges they need to differentiate among their orders whether if it's an "In-Store" or a "Takeaway" order.
-### PS.5 - To recognize monthly product wise sales in order to differentiate and understand the demand of each product.
-### PS.6 - For them to stock up on particular raw materials, they need to find out the total number of items sold.
+#### PS.1 - A Growing Cafe Business "BrewBite" needs an effective data tracking system where they can keep track of all the orders and handle ERRORS and UNKNOWN transactions.
+#### PS.2 - They are finding it difficult to track the total number of sales in each product.
+#### PS.3 - To evade over taxation, they need to segregate the modes of payment as Cash or Digital Payment.
+#### PS.4 - In order to manage the extra expenses for takeaway(parcel) charges they need to differentiate among their orders whether if it's an "In-Store" or a "Takeaway" order.
+#### PS.5 - To recognize monthly product wise sales in order to differentiate and understand the demand of each product.
+#### PS.6 - For them to stock up on particular raw materials, they need to find out the total number of items sold.
 
 ## Project Workflow
 ## 1. Data Cleaning & Preparation
-### Excel
+#### Excel
 Removed missing values by filtering and deleting incomplete records.
 
 Corrected data types for date and numeric fields.
 
 Added a calculated column Total Spent = (Price per Item × Quantity) to compute total revenue per order.
 
-### SQL
+#### SQL
 Used DELETE FROM ... WHERE queries to remove records containing empty, or unknown values:
 
 ![image_alt](https://github.com/abhigithub077/Data-Analysis-Training-Project/blob/334aeccf759b916dfdb059d69d404ab89c0f8f83/Data_cleaning_1.png)
@@ -31,7 +31,7 @@ Used DELETE FROM ... WHERE queries to remove records containing empty, or unknow
 
 Ensured data consistency across order type, payment mode, and product names.
 
-### Power BI (Power Query Editor)
+#### Power BI (Power Query Editor)
 Handled missing values and removed null rows.
 
 Changed data types for Date and Revenue columns.
@@ -39,7 +39,7 @@ Changed data types for Date and Revenue columns.
 Created a DAX-calculated column for Total Spent = (Price per Item × Quantity) to support further analysis.
 
 ## 2. Data Analysis & Retrieval
-### Excel
+#### Excel
 Used Pivot Tables and Pivot Charts to summarize and analyze sales metrics.
 
 Identified:
@@ -54,7 +54,7 @@ Monthly product-wise sales trends.
 
 Total number of items sold.
 
-### SQL
+#### SQL
 Retrieved high-value insights using aggregate queries:
 
 Products generating the highest revenue:
@@ -82,14 +82,14 @@ Total units sold for each product:
 ![image_alt](https://github.com/abhigithub077/Data-Analysis-Training-Project/blob/334aeccf759b916dfdb059d69d404ab89c0f8f83/Total_items_sold_output.png)
 
 ## 3. Data Visualization
-### Excel Dashboard
+#### Excel Dashboard
 Combined Pivot Charts, Pie charts and Slicers into an interactive dashboard.
 
 Presented raw data, cleaned data, and the final dashboard for comparison.
 
 ![image_alt](https://github.com/abhigithub077/Data-Analysis-Training-Project/blob/7557069344f5017981ab72d67f2b8c6868bf9cb5/BrewBite_Excel_Dashboard.png)
 
-### Power BI Dashboard
+#### Power BI Dashboard
 Designed an interactive dashboard with:
 
 Column Chart – Total sales per product.
@@ -127,9 +127,9 @@ Observed that In-Store orders generated more revenue than Takeaway in certain mo
 ### Power BI – Data modelling, DAX calculations, interactive dashboards.
 
 ## Outcome
-### The project delivers a holistic sales performance analysis, combining spreadsheet analytics, database querying, and business intelligence dashboards. 
-These insights can be leveraged to:
+#### The project delivers a holistic sales performance analysis, combining spreadsheet analytics, database querying, and business intelligence dashboards. 
+#### These insights can be leveraged to:
 
-### -> Optimize product inventory.
-### -> Target marketing campaigns for high-demand items.
-### -> Adjust pricing strategies for underperforming categories.
+#### -> Optimize product inventory.
+#### -> Target marketing campaigns for high-demand items.
+#### -> Adjust pricing strategies for underperforming categories.
